@@ -21,7 +21,7 @@ def index():
 
 @app.route('/name')
 def name():
-    return f'<h1>Xsuesrep
+    return f'<h1>Xsuesrep</h1>'
 @app.route('/user/<username>')
 def user(username):
     return f'<h1>My name is {username}</h1>'
